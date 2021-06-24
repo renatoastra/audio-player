@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(15%);
+
+    
+    
+}
+.container{
+    backdrop-filter:blur(5px);
+    background:#6F00FF;
+    margin: auto;
+    display: flex;
+    width: 500px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(20%);
+    box-sizing: border-box;
+    box-shadow: 5px 3px 30px 10px #6F00FF;
+
+    
+}   
+
+.imgs{
+    padding-top: 30px;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 1px 1px black;
+  
+
+}
+
+.player{
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+body{
+
+    background-image: url('./image/bg.gif');
+}
+
+.box{
+
+    width:300px;
+    height: 60px;
+    background-color: rgba(252, 252, 252, 0.397);
+    transition: 0.3s;   
+    box-shadow: 1px 1px 1px 1px black;
+    
+    
+
+}
+
+.material-icons.md-36{
+
+    font-size: 45px;
+    margin-right: 5px;
+    transform: translateY(10%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.material-icons.md-36:hover{
+
+    font-size: 50px;
+}
+
+
+
+.box:hover{
+
+    background-color: rgba(252, 252, 252, 0.651);
+}
+
+#musicName{
+    color:rgb(255, 255, 255);
+    padding:10px;
+    transform: translateY(100%);
+    box-shadow: 1px 1px 1px black;
+    background-color: rgba(252, 252, 252, 0.397);
+}
+
+.credits{
+    max-width: 300px;
+    position: relative;
+    color: #f5f5f5;
+    font-weight: bold;
+    font-family: 'Staatliches', cursive;
+    margin-left: 150px;
+}
+
+.credits spam{
+    color: #6F00FF;
+    font-weight: bold;
+    font-family: 'Staatliches', cursive;
+}
+
+.credits ul{
+    display: inline;
+    width: 20px;
+}
+
+li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#barra{
+    margin-bottom: 10px;
+}

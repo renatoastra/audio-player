@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>mp3</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 id="musicName">MC TIMBU - Palavras não bastão</h1>
+        <div class="content">
+            
+            <div class="imgs">
+                <img id ="musicImg" src="./image/img1.gif" alt="">
+            </div>
+
+            <div class="player">
+
+                <input type="range" name="" id="barra">
+                <div id="timer"></div>
+
+                <DIV class="box">
+                    
+                    <span class="material-icons md-36" onclick="previousMusic()">
+                        skip_previous
+                        </span>
+                
+                    <span class="material-icons md-36"onclick="playMusica()">
+                        play_arrow
+                    </span>
+                    <span class="material-icons md-36" onclick="pauseMusica()">
+                        pause
+                    </span>
+                    <span class="material-icons md-36" onclick="skipMusic()">
+                        skip_next
+                        </span>
+                </DIV>
+            
+                <audio  id="audio">
+                    <source src="./audios/MC TIMBU - PALAVRAS NAO BASTÃO, TEM QUE SE ENVOLVER [ DJ BRUNO ].mp3" type="audio/mpeg">
+
+                </audio>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="credits">
+            <h2>Made <spam>by:</spam> Renato <spam>Astra</spam></h2>
+            <ul>
+                <a href="https://github.com/renatoastra"><li><img src="./image/github.png" alt=""></li></a>
+                <a href="https://instagram.com/renatoastra"><li><img src="./image/instagram.png" alt=""></li></a>
+                <a href="https://twitter.com/astraslade"><li><img src="./image/twitter.png" alt=""></li></a>
+                
+            </ul>
+            
+        </div>
+        
+    </footer>
+</body>
+
+
+
+<script src="script.js"></script>
+</html>
+
